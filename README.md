@@ -42,4 +42,34 @@
    * 掺个无序
      * 无序
 
+## 表格样式
+|姓名|年龄|技能|武力值|
+--|:--:|--:|--:
+|刘备|32|臂展长|66|
+|孙尚香|18|射箭|888|
 
+## 超链接
+[百度搜索](https://www.baidu.com "点击进入百度")
+[哔哩哔哩](https://www.bilibili.com "点击进入b站")
+
+## 插入图片
+![壁纸截图](c://users//Desktop//xx.jpg "壁纸")
+
+## 插入代码
+```c
+   #include<stdio.h>
+   #include<unistd.h>
+   int main(void){
+     printf("c test")
+     return 0;
+     }
+```
+```cpp
+    #include<iostream>
+```
+```bash
+   echo "回显命令”
+   ls -l
+   date
+   ps aux
+```
